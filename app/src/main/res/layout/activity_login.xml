@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:id="@+id/container_linear"
         >
         <View
             android:layout_width="match_parent"
@@ -31,6 +32,7 @@
             android:layout_marginTop="16dp"
             />
         <EditText
+            android:id="@+id/edittext_email"
             style="@style/StyleForInput"
             android:autofillHints="emailAddress"
             android:hint="@string/email"
@@ -38,12 +40,14 @@
             />
 
         <EditText
+            android:id="@+id/edittext_password"
             style="@style/StyleForInput"
             android:hint="@string/password"
             android:inputType="textPassword"
             android:autofillHints="password"
             />
         <LinearLayout
+            android:id="@+id/button_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="16dp"
@@ -51,6 +55,7 @@
             android:layout_marginHorizontal="16dp"
             >
             <Button
+                android:id="@+id/button_register"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
@@ -66,13 +71,13 @@
                 android:textSize="18sp"
                 />
         </LinearLayout>
-        <CheckBox
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Aceitar os termos"
-            android:textColor="@color/white"
-            android:checked="true"
-            />
+<!--        <CheckBox-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Aceitar os termos"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:checked="true"-->
+<!--            />-->
 <!--        <TextView-->
 <!--            android:layout_width="match_parent"-->
 <!--            android:layout_height="wrap_content"-->
