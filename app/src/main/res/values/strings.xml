@@ -7,4 +7,6 @@
     <string name="password">Senha</string>
     <string name="login">Login</string>
     <string name="register">Registrar</string>
+    <string name="login_empty_field">Preencha todoos os campos de Login!</string>
+    <string name="success_login">Logado com sucesso!</string>
 </resources>
